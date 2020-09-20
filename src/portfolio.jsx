@@ -105,19 +105,19 @@ export default function portfolio() {
           </div>
           <div className="wrk_s">
             <div className="wrk_e" style={{ width: '40vw' }}>
-              <a target="_blank" href="#Change">
+              <a target="_blank" href="https://www.behance.net/gallery/83586777/Sapiosexual">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
-                  <img className="bg" src="https://portfolio-sparsh.web.app/photos/chbg.jpg" />
-                  <div style={{ left: '30.8%' }} className="luxy-el" data-speed-y={4} data-offset={-65}>
-                    <img id="img_chu" src="https://portfolio-sparsh.web.app/photos/chuu.png" />
+                  <img className="bg" src="images/behance/sapio.jpg" />
+                  <div style={{  width:'100%' }} className="luxy-el" data-speed-y={4} data-offset={-65}>
+                    <img className="bg" src="images/behance/sapiohash.png" />
                   </div>
                 </div>
               </a>
               <div className="w-txt">
                 <p>01.</p>
                 <div>
-                  <p>Project 1</p>
-                  <span>sub heading</span>
+                  <p>SapioSexual</p>
+                  <span>[ˌseɪpɪəʊˈsɛkʃʊəl]<br></br>A person who finds intelligence sexually attractive or arousing.</span>
                 </div>
               </div>
             </div>
@@ -136,17 +136,17 @@ export default function portfolio() {
             <div className="wrk_e" style={{ width: '45vw' }}>
               <a target="_blank" href="#change">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
-                  <img className="bg" src="https://portfolio-sparsh.web.app/photos/shbg.jpg" />
-                  <div style={{ left: '5%' }} className="luxy-el" data-speed-y={-5} data-offset={110}>
-                    <img id="img_sho" src="https://portfolio-sparsh.web.app/photos/shoe.png" />
+                  <img className="bg" src="images/behance/ebook.png" />
+                  <div style={{ width:'100%', height:'150%'}} className="luxy-el" data-speed-y={-5} data-offset={110}>
+                    <img id="bg" src="images/behance/ebookhash.png" />
                   </div>
                 </div>
               </a>
               <div className="w-txt">
                 <p>02.</p>
                 <div>
-                  <p>Project 2</p>
-                  <span>sub heading</span>
+                  <p>Ebook Reader App Concept</p>
+                  <span>UI/UX Concept</span>
                 </div>
               </div>
             </div>
@@ -155,17 +155,17 @@ export default function portfolio() {
             <div className="wrk_e" style={{ width: '40vw' }}>
               <a target="_blank" href="#Change">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
-                  <img className="bg" src="https://portfolio-sparsh.web.app/photos/chbg.jpg" />
-                  <div style={{ left: '30.8%' }} className="luxy-el" data-speed-y={4} data-offset={-65}>
-                    <img id="img_chu" src="https://portfolio-sparsh.web.app/photos/chuu.png" />
+                  <img className="bg" src="images/behance/rage.png" />
+                  <div style={{ width:'100%'}} className="luxy-el" data-speed-y={4} data-offset={-65}>
+                    <img id="bg" src="images/behance/ragehash.png" />
                   </div>
                 </div>
               </a>
               <div className="w-txt">
                 <p>03.</p>
                 <div>
-                  <p>Project</p>
-                  <span>sub</span>
+                  <p>Rage Coffee</p>
+                  <span>Brand Identity Concept</span>
                 </div>
               </div>
             </div>
@@ -176,17 +176,17 @@ export default function portfolio() {
             <div className="wrk_e" style={{ width: '45vw' }}>
               <a target="_blank" href="#change">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
-                  <img className="bg" src="https://portfolio-sparsh.web.app/photos/shbg.jpg" />
-                  <div style={{ left: '5%' }} className="luxy-el" data-speed-y={-5} data-offset={110}>
-                    <img id="img_sho" src="https://portfolio-sparsh.web.app/photos/shoe.png" />
+                  <img className="bg" src="images/behance/black.png" />
+                  <div style={{ width:'100%', top:'40%'}} className="luxy-el" data-speed-y={-5} data-offset={110}>
+                    <img id="bg" src="images/behance/port.jpg" />
                   </div>
                 </div>
               </a>
               <div className="w-txt">
                 <p>04.</p>
                 <div>
-                  <p>Project 4</p>
-                  <span>sub heading</span>
+                  <p>Portfolio Monochrome</p>
+                  <span>2019 Portfolio</span>
                 </div>
               </div>
             </div>
