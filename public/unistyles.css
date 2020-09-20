@@ -1,0 +1,435 @@
+*{
+  cursor: url('images/cursor.png'), auto;
+}
+body{
+ width: 100%;
+ height: 100%;
+ /* margin-top: 15%; */
+ overflow-x: hidden;
+ text-rendering: optimizeLegibility;
+ font-size: 100%;
+ font-family: sans-serif;
+ cursor: url('images/cursor.png'), auto;
+}
+#cursor {
+  width: 34px;
+  height: 34px;
+  position: fixed;
+  top: -17px;
+  left: -17px;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 40;
+}
+
+body, ::-webkit-scrollbar, .imgrev::before{
+  background: #0d0d0d;/*#231f20;*/
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #fff;
+}
+
+::-moz-selection, ::selection, ::-webkit-selection{
+  color: inherit;
+  background: transparent;
+}
+
+/*FONTS*/
+
+@font-face {
+  font-family: circular;
+  src: url(fonts/CircularStd-Book.woff2);
+}
+
+@font-face {
+  font-family: sequel;
+  src: url(fonts/MonumentExtended-Bold.woff);
+}
+
+@font-face {
+  font-family: circular_bold;
+  src: url(fonts/CircularStd-Medium.woff2);
+}
+
+
+/*UNIVERSAL*/
+
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%; margin: auto;}
+.col-12 {width: 100%;}
+
+ul, li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3, h4{
+  font-weight: normal;
+}
+
+p, h1, h5{
+  cursor: default;
+  font-weight: normal;
+}
+
+p .row{
+  margin-bottom: 2px;
+}
+
+h1{
+  white-space: nowrap;
+  font-size: 8.1vw;
+  color: #ffffff;
+  font-family: sequel, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-weight: normal;
+}
+
+h1 .row{
+  margin-bottom: -2.5vw;
+  padding: 0 10px 0 3px;
+  margin-left: -4px;
+}
+
+h1 span:first-child > span{
+  transition-delay: .1s;
+}
+
+h1 span:nth-child(2) > span{
+  transition-delay: .2s;
+}
+
+h1 span:nth-child(3) > span{
+  transition-delay: .3s;
+}
+
+h4 .row{
+  padding: 0 8px 0 3px;
+}
+
+h1 .row > span{
+  line-height: 108%;
+}
+
+del{
+  text-decoration: none;
+  position: relative;
+}
+
+del::after{
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  background: #2c2a2a;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
+}
+
+span{
+  display: block;
+  font-family: inherit;
+}
+
+p{
+  font-family: circular, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  
+}
+
+a{
+  text-decoration: none;
+  font-family: circular, sans-serif;
+  font-size: 14px;
+  color: #fff;/*#222831;*/
+  position: relative;
+  transition: color .4s;
+  
+}
+
+a:hover{
+  color: #f94444;
+}
+
+.outline{
+  -webkit-text-stroke: .02em #fff;/*#4bbfda*/;
+  text-stroke: 1px #fff;
+  color: transparent;
+}
+
+.-o{
+  opacity: .3;
+}
+
+.delay span:first-child > span{
+  transition-delay: .1s;
+}
+
+.delay span:nth-child(2) > span{
+  transition-delay: .2s;
+}
+
+.delay span:nth-child(3) > span{
+  transition-delay: .3s;
+}
+
+.delay span:nth-child(4) > span{
+  transition-delay: .4s;
+}
+
+.delay span:nth-child(5) > span{
+  transition-delay: .5s;
+}
+
+.row{
+  overflow: hidden;
+  font-size: inherit;
+}
+
+.row > span, .imgrev::before{
+  transition: transform .7s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-delay: .3s;
+}
+
+.row > span{
+  font-family: inherit;
+  transform-origin: 0 0;
+}
+
+.row > span[data-emergence=hidden] {
+  transform: translate(0, 100%) rotate(8deg) scaleY(2.5);
+}
+.row > span[data-emergence=visible] {
+  transform: translate(0, 0) rotate(0) scaleY(1);
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.jus{
+  justify-content: space-between;
+}
+
+.ali{
+  align-items: flex-start;
+}
+
+.imgrev{
+  position: relative;
+  overflow: hidden;
+}
+
+.imgrev img{
+  width: 100%;
+  transform: scale(1, 1);
+  transition: .4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-delay: .2s;
+}
+
+.imgrev::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  transition: .8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-delay: .1s;
+}
+
+.imgrev[data-emergence=hidden]::before {
+  height: 100%;
+}
+.imgrev[data-emergence=visible]::before{
+  height: 0;
+}
+
+.imgrev[data-emergence=hidden] img{
+  transform: scale(1.1, 1.1);
+}
+.imgrev[data-emergence=visible] img{
+  transform: scale(1, 1);
+}
+
+
+
+.logo{
+  position: fixed;
+  top: 50px;
+  left: 5%;
+  z-index: 10;
+}
+
+.logo p{
+  font-family: circular;
+  font-size: 13px;
+}
+
+
+nav{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 5%;
+  z-index: 8;
+  right: 0;
+  pointer-events: none;
+}
+
+nav a{
+  font-size: 13px;
+  line-height: 10px;
+  text-transform: capitalize;
+  pointer-events: auto;
+}
+
+.ce{
+  text-decoration: underline;
+  transform: translate(0, 4vh);
+  display: block;
+  font-size: 25px;
+  font-family: circular_bold;
+}
+
+.copy{
+  font-size: 12px;
+  transform: translate(0, 15vh);
+  opacity: .7;
+  font-family: circular;
+}
+
+.wrk, .con, .pro, .exp{
+  margin: 30vh 5vw 0 5vw;
+  position: relative;
+}
+
+.wrk_t > h1, .ins > .arc_t > h1, .pro > div{
+  transform: translate(14px, 0);
+}
+
+.wrk_t{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.wrk > div{
+  width: 100%;
+}
+
+.w-img{
+  overflow: hidden;
+  width: auto;
+  text-align: center;
+  position: relative;
+}
+
+.w-img > div{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.w-img > .bg{
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.w-txt{
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.w-txt div{
+  padding-left: 50px;
+}
+
+.w-txt p{
+  font-size: 18px;
+  font-family: circular_bold;
+  color: #fff;
+}
+
+.w-txt div span{
+  font-size: 13px;
+  opacity: 0.7;
+  font-family: circular;
+  padding-top: 2px;
+  color: #fff;
+}
+
+.fot{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5vw 3vw 5vw;
+  border-top: 1px solid rgba(240, 240, 243, .08);
+  padding-top: 2vw;
+}
+
+.fot p{
+  font-size: 13px;
+}
+
+.fot a{
+  font-size: 20px;
+}
+
+.fot > p span:last-child > span{
+  transition-delay: .3s;
+}
+
+.copy{
+  opacity: .5;
+  transform: translate(0, 15vh);
+  font-size: 12px;
+}
+
+.float{
+  opacity: 0;
+  position: fixed;
+  z-index: 100;
+  transition: .2s;
+  transition-property: opacity;
+  pointer-events: none;
+}
+
+.beh img{
+  width: 90px;
+}
+
+.custom_img img{
+  width: 18vw;
+}
+.intro{
+  display: block;
+}
+.icon{
+  width: 30px;
+}

@@ -18,7 +18,7 @@ export default function portfolio() {
       </div>
       <nav className="col-3">
         <div>
-          <a className="about_me" href="https://portfolio-sparsh.web.app/about">About Me</a>
+          <a className="about_me" href="/about">About Me</a>
         </div>
         <div>
           <a target="_blank" href="https://www.behance.net/SparshBajaj"><img className="icon" src={behance} height="auto" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
