@@ -18,7 +18,7 @@ export default function portfolio() {
       </div>
       <nav className="col-3">
         <div>
-          <Link className="about_me" to="/about">About Me</Link>
+          <a className="about_me" href="https://portfolio-sparsh.web.app/about">About Me</a>
         </div>
         <div>
           <a target="_blank" href="https://www.behance.net/SparshBajaj"><img className="icon" src={behance} height="auto" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -56,16 +56,16 @@ export default function portfolio() {
             <div className="no-out" style={{ zIndex: 1 }}>
               <h1 className="luxy-el" data-horizontal={1} data-speed-x={-35}>
                 <span className="row">
-                  <span data-emergence="hidden">Master of mesmerizing</span>
+                  <span data-emergence="hidden">Master of Illustrator</span>
                 </span>
               </h1>
               <h1 className="le luxy-el" data-horizontal={1} data-speed-x={35}>
                 <span className="row">
-                  <span data-emergence="hidden">Illustrations &amp; Design</span>
+                  <span data-emergence="hidden">Design &amp; UI/UX &amp; Design</span>
                 </span>
               </h1>
             </div>
-            <div style={{ zIndex: 2, marginLeft: '30.3%' }} className="bnr_img imgrev luxy-el" data-speed-y={-19} data-offset={-80} data-emergence="hidden">
+            <div style={{ zIndex: 2, marginLeft: '30.3%'}} className="bnr_img imgrev luxy-el" data-speed-y={-19} data-offset={-50} data-emergence="hidden">
               <img id="imgb" src={b1} />
               <div>
                 <img id="imgc" src={c1} className="luxy-el" data-speed-y={15} />
@@ -74,12 +74,12 @@ export default function portfolio() {
             <div style={{ zIndex: 3 }}>
               <h1 className="luxy-el outline" data-horizontal={1} data-speed-x={-35}>
                 <span className="row">
-                  <span data-emergence="hidden">Master of mesmerizing</span>
+                  <span data-emergence="hidden">Master of Illustrator</span>
                 </span>
               </h1>
               <h1 className="le luxy-el outline" data-horizontal={1} data-speed-x={35}>
                 <span className="row">
-                  <span data-emergence="hidden">Illustrations &amp; Design</span>
+                  <span data-emergence="hidden">Design &amp; UI/UX &amp; Design</span>
                 </span>
               </h1>
             </div>

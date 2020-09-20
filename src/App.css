@@ -242,6 +242,7 @@ a:hover{
 .imgrev{
   position: relative;
   overflow: hidden;
+  
 }
 
 .imgrev img{
@@ -260,6 +261,7 @@ a:hover{
   z-index: 5;
   transition: .8s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition-delay: .1s;
+
 }
 
 .imgrev[data-emergence=hidden]::before {
@@ -440,4 +442,7 @@ nav a{
   position: fixed;
   top: 9%;
   right: 12%;
+}
+.cover{
+  height:100% ;
 }

@@ -4,7 +4,6 @@
     <title>Sparsh Bajaj — Visual Artist</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
     <meta name="keywords" content="ui/ux, designer, freelance, website, portfolio">
     <meta name="author" content="Sparsh Bajaj">
     <meta name="description" content="Portfolio of Sparsh Bajaj. A visual designer currently available for freelance.">
@@ -114,8 +113,8 @@
   }
 
   .bnr_img{
-    margin-top: -4%;
-  }
+    margin-top: -4px;
+    }
 
   .bnr_t > .no-out h1{
     -webkit-text-stroke: 0 #4bbfda;
@@ -125,8 +124,12 @@
 
   .bnr_t img{
     width: 39vw;
-    margin: auto;
+    height: auto;
+    
   }
+  .bnr_t img{
+      width: 39vw !important;
+    }
 
   .le{
     margin-left: -18%; /*23*/
@@ -140,7 +143,7 @@
 
   .bnr_img > div{
     position: absolute;
-    top: 8%;
+    top: 1%;
     left: 0;
     width: 80%;
   }
@@ -227,6 +230,9 @@
     .wrk{
       margin-top: 0vh;
     }
+    .bnr_t img{
+      width: 39vw !important;
+    }
     .bnr_c{
       margin-top: 15vh;
     }
@@ -264,6 +270,9 @@
 @media only screen  and (min-width : 360px) and (max-width : 636px){
     .wrk{
       margin-top: 0vh;
+    }
+    .bnr_t img{
+      width: 39vw !important;
     }
     #logo{
       width: 100px !important;
@@ -314,6 +323,9 @@
     .wrk{
       margin-top: 15vh;
     }
+    .bnr_t img{
+      width: 39vw !important;
+    }
     .con{
       padding-bottom: 15vh;
       margin-top: 46vh;
@@ -341,6 +353,9 @@
     
     .bnr_t{
       transform: translate(0, 60vh);
+    }
+    .bnr_t img{
+      width: 39vw !important;
     }
     .bnr h1{
       line-height: 110%;
@@ -372,6 +387,8 @@
     
   }
     </style>
+  <script src="js/luxy.js"></script>
+  <script src="js/emergence.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -401,8 +418,8 @@
     document.getElementById('year').innerHTML = new Date().getFullYear();
   
     function changeImg(imgNumber){
-      var bImg = ["https://portfolio-sparsh.web.app/photos/b1.jpg", "https://portfolio-sparsh.web.app/photos/b2.jpg", "https://portfolio-sparsh.web.app/photos/b3.jpg", "https://portfolio-sparsh.web.app/photos/b4.jpg"];
-      var cImg = ["https://portfolio-sparsh.web.app/photos/c1.png", "https://portfolio-sparsh.web.app/photos/c2.png", "https://portfolio-sparsh.web.app/photos/c3.png", "https://portfolio-sparsh.web.app/photos/c4.png"];
+      var bImg = ["images/B2.png", "images/b4.png", "images/b1.jpg", "images/b5.png"];
+      var cImg = ["images/LionKing.png", "images/Spider.png", "images/simpsons-portrait.png", "images/trooper.png"];
       //var imgShown = document.getElementById('imgc').src;
       var newImgNumber =Math.floor(Math.random() * bImg.length);
       document.getElementById('imgb').src = bImg[newImgNumber];
@@ -466,8 +483,6 @@
   
     document.addEventListener("DOMContentLoaded", followMouse);
     </script>
-    <script src="js/luxy.js"></script>
-    <script src="js/emergence.js"></script>
     <script>
     luxy.init();
   
