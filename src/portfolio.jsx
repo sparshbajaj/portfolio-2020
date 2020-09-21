@@ -4,6 +4,7 @@ import b1 from './photos/b1.jpg';
 import c1 from './photos/c1.png';
 import insta from './photos/instagram.svg';
 import behance from './photos/behance.svg';
+import git from './photos/github.svg';
 import { Link } from 'react-router-dom'
 
 export default function portfolio() {
@@ -22,7 +23,8 @@ export default function portfolio() {
         </div>
         <div>
           <a target="_blank" href="https://www.behance.net/SparshBajaj"><img className="icon" src={behance} height="auto" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a target="_blank" href="https://instagram.com/sparsh_bajaj"><img className="icon" src={insta} height="auto" /></a><br />
+          <a target="_blank" href="https://instagram.com/sparsh_bajaj"><img className="icon" src={insta} height="auto" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a target="_blank" href="https://github.com/sparshbajaj"><img className="icon" src={git} height="auto" /></a><br />
         </div>
       </nav>
       {/*MAIN*/}
@@ -31,7 +33,7 @@ export default function portfolio() {
         {/*BANNER*/}
         <div className="bnr col-12">
           <div className="bnr_c">
-            <img id="scroll" src="https://portfolio-sparsh.web.app/photos/scroll.png" />
+            <img id="scroll" src="/images/scroll.png" />
             <div className="intro">
               <p className="delay">
                 <span className="row">
@@ -45,9 +47,6 @@ export default function portfolio() {
                 </span>
                 <span className="row">
                   <span data-emergence="hidden">I provide high quality web design services.</span>
-                </span><br />
-                <span className="row">
-                  <span data-emergence="hidden"><a style={{ textDecoration: 'underline' }} href="about/#">Read More About Me</a></span>
                 </span>
               </p>
             </div>
@@ -130,11 +129,11 @@ export default function portfolio() {
                 </span>
               </p>
               <span className="row">
-                <span data-emergence="hidden"><img src="https://portfolio-sparsh.web.app/photos/larro.svg" /></span>
+                <span data-emergence="hidden"><img src="/images/larro.svg" /></span>
               </span>
             </a>
             <div className="wrk_e" style={{ width: '45vw' }}>
-              <a target="_blank" href="#change">
+              <a target="_blank" href="https://www.behance.net/gallery/92518137/Ebook-Reader-App-Concept">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
                   <img className="bg" src="images/behance/ebook.png" />
                   <div style={{ width:'100%', height:'150%'}} className="luxy-el" data-speed-y={-5} data-offset={110}>
@@ -153,7 +152,7 @@ export default function portfolio() {
           </div>
           <div className="wrk_s">
             <div className="wrk_e" style={{ width: '40vw' }}>
-              <a target="_blank" href="#Change">
+              <a target="_blank" href="https://www.behance.net/gallery/92515861/Rage-Coffee-Branding-%28concept%29">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
                   <img className="bg" src="images/behance/rage.png" />
                   <div style={{ width:'100%'}} className="luxy-el" data-speed-y={4} data-offset={-65}>
@@ -174,7 +173,7 @@ export default function portfolio() {
             <a target="_blank">
             </a>
             <div className="wrk_e" style={{ width: '45vw' }}>
-              <a target="_blank" href="#change">
+              <a target="_blank" href="https://www.behance.net/gallery/84439363/Monochrome-Portfolio-2019">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
                   <img className="bg" src="images/behance/black.png" />
                   <div style={{ width:'100%', top:'40%'}} className="luxy-el" data-speed-y={-5} data-offset={110}>
@@ -208,7 +207,7 @@ export default function portfolio() {
                 </span>
               </h1>
               <div className="imgrev luxy-el" data-speed-y="-4.5" data-offset={160} data-emergence="hidden">
-                <img src="https://portfolio-sparsh.web.app/photos/cont2.gif" />
+                <img src="/images/cont2.gif" />
               </div>
             </div>
             <div className="con_p">
@@ -230,7 +229,7 @@ export default function portfolio() {
                   </span>
                 </p>
                 <span className="row">
-                  <span data-emergence="hidden"><img src="https://portfolio-sparsh.web.app/photos/larro.svg" /></span>
+                  <span data-emergence="hidden"><img src="/images/larro.svg" /></span>
                 </span>
               </a>
               <p className="delay copy">
@@ -246,7 +245,7 @@ export default function portfolio() {
         </div>
         {/*SCROLL-END*/}
       </div>
-      <span id="float" className="float beh"><img src="https://portfolio-sparsh.web.app/photos/beh.png" /></span>
+      <span id="float" className="float beh"><img src="/images/beh.png" /></span>
     </div>
   );
 }
