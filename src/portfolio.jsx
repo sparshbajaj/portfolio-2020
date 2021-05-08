@@ -5,6 +5,7 @@ import c1 from './photos/c1.png';
 import insta from './photos/instagram.svg';
 import behance from './photos/behance.svg';
 import git from './photos/github.svg';
+import tweet from './photos/twitter.svg';
 import { Link } from 'react-router-dom'
 
 export default function portfolio() {
@@ -15,14 +16,16 @@ export default function portfolio() {
         <h1>LOADING...</h1>
       </div>
       <div className="logo">
-        <p><img className="logo" src="https://sparshbajaj.co/wp-content/uploads/2019/11/white-logo_2.svg" height="auto" width="120px" alt="Sparsh Bajaj | Visual Artist" /></p>
+        <p><img className="logo" src="/images/white-logo_2.svg" height="auto" width="120px" alt="Sparsh Bajaj | Visual Artist" /></p>
       </div>
       <nav className="col-3">
         <div>
           <a className="about_me" href="/about">About Me</a>
+          <a className="nft" href="/NFT">NFT</a>
         </div>
         <div>
           <a target="_blank" href="https://www.behance.net/SparshBajaj"><img className="icon" src={behance} height="auto" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a target="_blank" href="https://twitter.com/Sparsh_Nerd"><img className="icon" src={tweet} height="auto" /></a><br />
           <a target="_blank" href="https://instagram.com/sparsh_bajaj"><img className="icon" src={insta} height="auto" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a target="_blank" href="https://github.com/sparshbajaj"><img className="icon" src={git} height="auto" /></a><br />
         </div>
@@ -104,19 +107,19 @@ export default function portfolio() {
           </div>
           <div className="wrk_s">
             <div className="wrk_e" style={{ width: '40vw' }}>
-              <a target="_blank" href="https://www.behance.net/gallery/83586777/Sapiosexual">
+              <a target="_blank" href="https://www.instagram.com/schindlerelevators_india/">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
-                  <img className="bg" src="images/behance/sapio.jpg" />
+                  <img className="bg" src="images/behance/filter.jpg" />
                   <div style={{  width:'100%' }} className="luxy-el" data-speed-y={4} data-offset={-65}>
-                    <img className="bg" src="images/behance/sapiohash.png" />
+                    <img className="bg" src="images/behance/filter.png" />
                   </div>
                 </div>
               </a>
               <div className="w-txt">
                 <p>01.</p>
                 <div>
-                  <p>SapioSexual</p>
-                  <span>[ˌseɪpɪəʊˈsɛkʃʊəl]<br></br>A person who finds intelligence sexually attractive or arousing.</span>
+                  <p>Instagram Filter</p>
+                  <span>Instagram Filter <br></br>To overcome challenge faced by Schindler in India and/or also faced by many other brands make people familiar with correct pronunciation of the brand name.</span>
                 </div>
               </div>
             </div>

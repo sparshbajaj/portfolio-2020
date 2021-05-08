@@ -132,6 +132,7 @@ h1 .row > span{
   line-height: 108%;
 }
 
+
 del{
   text-decoration: none;
   position: relative;
@@ -436,13 +437,33 @@ nav a{
   width: 30px;
 }
 .about_me{
-  font-size: 18px;
+  font-size: 20px;
   font-family: circular_bold;
   color: #fff;
   position: fixed;
   top: 9%;
   right: 15%;
 }
+.nft{
+  font-size: 20px;
+  font-family: circular_bold;
+  color: #fff;
+  position: fixed;
+  top: 13%;
+  right: 15%;
+}
 .cover{
   height:100% ;
+}
+
+.gridNFT {
+  padding:0 20px 20px;
+}
+.sectionNFT{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: flex-start;
+margin-top: 5vh;
+width: 80vw;
 }

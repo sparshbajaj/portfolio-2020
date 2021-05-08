@@ -1,0 +1,62 @@
+{
+    "Data":[
+
+        {
+            "Post_Name": "Alien on LSD",
+            "Desc": "Rarible, Single, On Sale",
+            "Image_URL" : "./NFT_images/alien.png",
+            "Price": "Ξ 0.1 ETH",
+            "Onclick_URL" : "https://rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:626041:0x090f05714376526c6266886e23f57a0ac2d33c56"
+        },
+        {
+            "Post_Name": "Look Into My Eyes",
+            "Desc": "Foundation, Single, No Gas Money to Mint",
+            "Image_URL" : "./NFT_images/eyes.gif",
+            "Price": "Ξ 0.5 ETH",
+            "Onclick_URL" : "https://foundation.app/sparshbajaj"
+        },
+        {
+            "Post_Name": "Dripping Paint",
+            "Desc": "Foundation, Single, No Gas Money to Mint",
+            "Image_URL" : "./NFT_images/red_paint.png",
+            "Price": "Ξ 1 ETH",
+            "Onclick_URL" : "https://foundation.app/sparshbajaj"
+        },
+        {
+            "Post_Name": "The Sunset",
+            "Desc": "Foundation, Single, No Gas Money to Mint",
+            "Image_URL" : "./NFT_images/sunset_water.gif",
+            "Price": "Ξ 0.3 ETH",
+            "Onclick_URL" : "https://foundation.app/sparshbajaj"
+        },
+        {
+            "Post_Name": "Umm... Rick?",
+            "Desc": "Foundation, Single, No Gas Money to Mint",
+            "Image_URL" : "./NFT_images/Morty.jpg",
+            "Price": "Ξ 0.1 ETH",
+            "Onclick_URL" : "https://foundation.app/sparshbajaj"
+        },
+        {
+            "Post_Name": "Cencorship",
+            "Desc": "Foundation, Single, No Gas Money to Mint",
+            "Image_URL" : "./NFT_images/lady.jpg",
+            "Price": "Ξ 0.7 ETH",
+            "Onclick_URL" : "https://foundation.app/sparshbajaj"
+        },
+        {
+            "Post_Name": "The Lost Ship",
+            "Desc": "Foundation, Single, No Gas Money to Mint",
+            "Image_URL" : "./NFT_images/lost_ship.png",
+            "Price": "Ξ 1 ETH",
+            "Onclick_URL" : "https://foundation.app/sparshbajaj"
+        },
+        {
+            "Post_Name": "Punk!",
+            "Desc": "Foundation, Single, No Gas Money to Mint",
+            "Image_URL" : "./NFT_images/readhead_portrait.png",
+            "Price": "Ξ 1 ETH",
+            "Onclick_URL" : "https://foundation.app/sparshbajaj"
+        }
+
+    ]
+}
