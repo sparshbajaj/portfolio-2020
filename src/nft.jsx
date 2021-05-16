@@ -107,9 +107,9 @@ export default function portfolio() {
         or Donate directly for gas money here - <u>0x090F05714376526c6266886E23f57A0AC2d33c56</u> (Meta Mask). Do email me if you want any specific artwork if you donated of gas money. :) 💖
         </h2>
       </div>
-        <div>
+        <div style={{ marginTop:"30vh" }}>
           {/*CONTACT*/}
-          <div className="con flex">
+          <div className="cont-area con flex">
             <div className="con_t">
               <h1 style={{ position: 'relative', zIndex: 4 }}>
                 <span className="row">

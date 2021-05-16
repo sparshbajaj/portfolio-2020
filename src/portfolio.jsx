@@ -90,10 +90,10 @@ export default function portfolio() {
         {/*WORK*/}
         <div className="wrk">
           <div className="wrk_t">
-            <p className="row" style={{ marginTop: '12px' }}>
-              <span data-emergence="hidden" style={{ transitionDelay: '.8s' }}>FEATURED PROJECTS</span>
-            </p>
-            <h1>
+            <h1 className="row" style={{ marginTop: '12px' }}>
+              
+            </h1>
+            <h1 class="wrk_work">
               <span className="row">
                 <span className="outline -o" data-emergence="hidden">work</span>
               </span>
@@ -106,7 +106,7 @@ export default function portfolio() {
             </h1>
           </div>
           <div className="wrk_s">
-            <div className="wrk_e" style={{ width: '40vw' }}>
+            <div className="wrk_e">
               <a target="_blank" href="https://www.instagram.com/schindlerelevators_india/">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
                   <img className="bg" src="images/behance/filter.jpg" />
@@ -124,7 +124,7 @@ export default function portfolio() {
               </div>
             </div>
           </div>
-          <div className="wrk_s flex jus" style={{ padding: '12.5% 0 15% 0', alignItems: 'flex-end' }}>
+          <div className="wrk_s flex jus" id="wrk_arrow" style={{ padding: '12.5% 0 15% 0', alignItems: 'flex-end' }}>
             <a target="_blank" href="https://www.behance.net/SparshBajaj" className="prj_btn btn">
               <p>
                 <span className="row">
@@ -135,7 +135,7 @@ export default function portfolio() {
                 <span data-emergence="hidden"><img src="/images/larro.svg" /></span>
               </span>
             </a>
-            <div className="wrk_e" style={{ width: '45vw' }}>
+            <div className="wrk_e">
               <a target="_blank" href="https://www.behance.net/gallery/92518137/Ebook-Reader-App-Concept">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
                   <img className="bg" src="images/behance/ebook.png" />
@@ -154,7 +154,7 @@ export default function portfolio() {
             </div>
           </div>
           <div className="wrk_s">
-            <div className="wrk_e" style={{ width: '40vw' }}>
+            <div className="wrk_e">
               <a target="_blank" href="https://www.behance.net/gallery/92515861/Rage-Coffee-Branding-%28concept%29">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
                   <img className="bg" src="images/behance/rage.png" />
@@ -172,10 +172,10 @@ export default function portfolio() {
               </div>
             </div>
           </div>
-          <div className="wrk_s flex jus" style={{ padding: '12.5% 0 15% 0', alignItems: 'flex-end' }}>
+          <div className="wrk_s flex jus jus_wrk" style={{ padding: '12.5% 0 15% 0', alignItems: 'flex-end' }}>
             <a target="_blank">
             </a>
-            <div className="wrk_e" style={{ width: '45vw' }}>
+            <div className="wrk_e">
               <a target="_blank" href="https://www.behance.net/gallery/84439363/Monochrome-Portfolio-2019">
                 <div className="w-img imgrev" data-emergence="hidden" onmousemove="vis();" onmouseout="hid();">
                   <img className="bg" src="images/behance/black.png" />
@@ -194,7 +194,7 @@ export default function portfolio() {
             </div>
           </div>
           {/*CONTACT*/}
-          <div className="con flex">
+          <div className="cont-area con flex">
             <div className="con_t">
               <h1 style={{ position: 'relative', zIndex: 4 }}>
                 <span className="row">
