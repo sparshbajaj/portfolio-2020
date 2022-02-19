@@ -37,8 +37,8 @@ export default function portfolio() {
                 </span>
                 <span className="row" style={{ fontSize: '20px', paddingTop: '8px', fontFamily: 'circular_bold' }}>
                   <span data-emergence="hidden">
-                    MARCH 2020 - Currently working at <br />
-                        Ginger Monkey (Illustrator &amp; Graphic Designer).
+                    June 2021 - Currently working at <br />
+                        <a href="https://memoriacall.com">MemoriaCall</a> (Security Analyst and UI/UX Designer).
                       </span>
                 </span>
               </p>

@@ -100,11 +100,10 @@ export default function portfolio() {
       <div>
         <h2 style={{color:'white', marginLeft:'6.2%', marginTop:'6%',marginRight:'5.2%'}}>
         I have more artworks that I created in the last few years that are worth minting but I don't have money or Ether to mint them and pay gas fees.<br></br><br></br>
-        I am trying to raise funds for my Higher Education from Cardiff University or NCI Dublin (I've received offer letters) MSc. Cyber Security.
-        Due to covid our business was impacted and we don't have enough funds to sponsor my education, so I am trying to do my part.
-        <br></br><br></br>
+        <br></br>
         If you wish to buy NFT Please consider bidding for my first minted artwork above
-        or Donate directly for gas money here - <u>0x090F05714376526c6266886E23f57A0AC2d33c56</u> (Meta Mask). Do email me if you want any specific artwork if you donated of gas money. :) 💖
+        or Donate directly for gas money here - <u>0x090F05714376526c6266886E23f57A0AC2d33c56</u> (Meta Mask).
+        Do email me if you want any specific artwork if you donated of gas money. 😄💖
         </h2>
       </div>
         <div style={{ marginTop:"30vh" }}>
