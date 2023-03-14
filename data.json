@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Project 1",
+      "type": "Web Design",
+      "date": "2022-01-01",
+      "client": "Client 1",
+      "heroImage": "https://images.unsplash.com/photo-1676501334781-30ac3973dbef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
+      "description": "This is a description of Project 1. It includes text, images, and maybe videos.",
+      "progress": "Completed",
+      "slug": "project-1"
+    },
+    {
+      "title": "Project 2",
+      "type": "Graphic Design",
+      "date": "2022-02-01",
+      "client": "Client 2",
+      "heroImage": "https://images.unsplash.com/photo-1678542800290-f03137472373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      "description": "This is a description of Project 2. It includes text, images, and maybe videos.",
+      "progress": "WIP",
+      "slug": "project-2"
+    },
+    {
+      "title": "Project 3",
+      "type": "App Development",
+      "date": "2022-03-01",
+      "client": "Client 3",
+      "heroImage": "https://images.unsplash.com/photo-1670320850369-10fba68efc1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      "description": "This is a description of Project 3. It includes text, images, and maybe videos.",
+      "progress": "Prototyping",
+      "slug": "project-3"
+    }
+  ]
