@@ -5,9 +5,7 @@
       "date": "2022-01-01",
       "client": "Client 1",
       "heroImage": "https://images.unsplash.com/photo-1676501334781-30ac3973dbef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
-      "description": "<h2>Help Scout Dark Mode: A Case Study</h2> <p>One of my last mobile projects before focusing on knowledge base tools at Help Scout involved figuring out a dark mode version of the app. While the concept of dark modes may seem simple, getting it right can prove to be challenging. To lay the groundwork for this project, I created Help Scout Dark Mode (HSDM) to communicate my ideas with the organization and engineers.</p>
-
-<p>I viewed dark mode as more than just a visual change - it was a set of principles to follow that would adhere to the visual language dictated by its lighter counterpart. This approach lent itself to creating a more functional vision where I looked at how a dark mode would work from a hierarchical viewpoint and conducted a color mapping study from light to dark.</p>",
+      "description": "<h2>Help Scout Dark Mode: A Case Study</h2> <p>One of my last mobile projects before focusing on knowledge base tools at Help Scout involved figuring out a dark mode version of the app. While the concept of dark modes may seem simple, getting it right can prove to be challenging. To lay the groundwork for this project, I created Help Scout Dark Mode (HSDM) to communicate my ideas with the organization and engineers.</p><p>I viewed dark mode as more than just a visual change - it was a set of principles to follow that would adhere to the visual language dictated by its lighter counterpart. This approach lent itself to creating a more functional vision where I looked at how a dark mode would work from a hierarchical viewpoint and conducted a color mapping study from light to dark.</p>",
       "progress": "Completed",
       "slug": "project-1"
     },
