@@ -5,7 +5,7 @@
       "date": "2022-01-01",
       "client": "Client 1",
       "heroImage": "https://images.unsplash.com/photo-1676501334781-30ac3973dbef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
-      "description": "This is a description of Project 2. It includes text, images, and maybe videos.",
+      "description": "<h1>Heading 1</h1><p>This is a <b>bold</b> paragraph.</p><p>This is an <u>underlined</u> paragraph.</p>",
       "excerpt": "ACT Responsable is a french association created to identify and collect the best communications campaigns around the world in order to raise awareness on social and environmental issues (solidarity, environment, human rights and education). The aim was to redesign the french website by focusing on their actions which are exhibitions, schools interventions or even the NG’Ad club.",
       "progress": "Completed",
       "slug": "project-1"
