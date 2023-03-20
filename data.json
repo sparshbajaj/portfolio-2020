@@ -11,15 +11,15 @@
       "slug": "fluence"
     },
     {
-      "title": "Project 2",
-      "type": "Graphic Design",
-      "date": "2022",
-      "client": "Client 2",
-      "heroImage": "https://images.unsplash.com/photo-1678542800290-f03137472373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-      "description": "<h1>Dark Mode</h1><p><b>One of my last mobile projects before focusing on knowledge base tools at Help Scout involved figuring out a dark mode version of the app.</b> Dark modes are easy in concept, but can prove a little challenging in getting right. I laid out the initial groundwork for what would be involved.</p><img src=\"https://source.unsplash.com/random/400x200\" alt=\"Dummy image\"> <p>I created Help Scout Dark Mode (HSDM) to communicate this idea with the organization and engineers.</p> <img src=\"https://source.unsplash.com/random/400x200\" alt=\"Dummy image\"><p>I viewed dark mode more as a set of principles to follow, ones that would follow the visual language dictated by its lighter counterpart. This in turn lent itself to creating a more functional vision, where I looked at how a dark mode would work from a hierarchical viewpoint, along with a color mapping study of light to dark.</p>",
-      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nulla vel facilisis fringilla, sapien justo tempus velit, eget lacinia justo tellus non sapien. Vivamus euismod ligula vel velit lacinia, in elementum lacus egestas. Nam tincidunt nisl a nunc fermentum dictum. Nulla facilisi. Donec non dui id purus faucibus varius.",
+      "title": "MemoriaCall",
+      "type": "UI/UX Design",
+      "date": "2021-2023",
+      "client": "MemoriaCall",
+      "heroImage": "https://github.com/sparshbajaj/projects/raw/main/Projects/memoria/memoricall-header.png",
+      "description": "<p> As a Senior UI/UX Designer, I am currently developing a SaaS-based product called MemoriaCall. MemoriaCall is a video conferencing platform that offers an all-in-one meeting platform with searchable audio transcript, in-app document sharing, storage, and playback. MemoriaCall is powered by OpenAI’s ChatGPT, which is a state-of-the-art language model that can generate human-like responses to text inputs. You can learn more about MemoriaCall and see all the live updates for the app on their website - memoriacall.com.</p>",
+      "excerpt": "MemoriaCall is a video conferencing platform that offers a feature set that combines essential collaborative features such as in-app file sharing, in-app file storage, and playback. It provides an all-in-one meeting platform with searchable audio transcript, in-app document sharing, storage, and playback. MemoriaCall is powered by OpenAI’s ChatGPT, which is a state-of-the-art language model that can generate human-like responses to text inputs. MemoriaCall is a secure, simple, and smart video conferencing platform that is revolutionizing the game.",
       "progress": "WIP",
-      "slug": "project-2"
+      "slug": "memoriacall"
     },
     {
       "title": "Loooop Studios",
