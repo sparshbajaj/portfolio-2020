@@ -8,7 +8,7 @@
       "description": "<h1>Web Development</h1><p>I received design requirements and assets, which you can see below. I then developed the website, which had to be interactive. Initially, I was asked to create a scroll trigger animation that would reveal the line art as it is drawn on canvas.</p><p>Here's the link to live website - <a href=\"https://www.fluence.eu\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Fluence</u></a></p><img src=\"https://github.com/sparshbajaj/projects/raw/main/Projects/fluence/website-fluence.png\" alt=\"fluence\">",
       "excerpt": "Fluence is an independent financial advisory firm founded by six associates with over a decade of common experience in the private banking and asset management sectors. The firm aims to provide personalized, high-performing, and digitalized services to its clients while reducing costs and increasing agility. Fluence’s approach is based on the realization of each investor’s personal objectives.",
       "progress": "Completed",
-      "slug": "project-1"
+      "slug": "fluence"
     },
     {
       "title": "Project 2",
@@ -41,7 +41,7 @@
       "description": "<h1>Schindler Challenge</h1><p>Schindler India has been honoured with two prestigious awards for their outstanding marketing initiatives at the Realty+ Interior and Exterior Awards 2020.</p><p>We are grateful to Realty+ for recognizing our efforts.</p><p>The awards acknowledge the innovative marketing campaigns by Schindler India throughout 2020 that were unique in concept, creative in approach, and effective in communication.</p><p>Schindler India has won the Marketing Campaign of the Year award for the Schindler Challenge Campaign and the Marketer of the Year award under the leadership of Mr. Ashok Ramachandran for their engaging 360° marketing initiatives throughout 2020.</p><p>The campaigns included the Schindler Challenge, the Freedom Week Campaign, the Jugaad Campaign, and the ongoing Extra campaign.</p><p>The year 2020 witnessed an exciting and engaging marketing calendar for Schindler India with visionary and innovative campaigns designed around gamification, augmented reality, and a positive and fun element as an engaging tool.</p><p>As a team member, I had the privilege of contributing to the development of this campaign and creating the Instagram filter used in the awareness campaign.</p><img src=\"https://github.com/sparshbajaj/projects/raw/main/Projects/schindler/linkdin-post.jpeg\" alt=\"linkedIn\">",
       "excerpt": "Schindler Group is a Swiss company that provides elevators, escalators, and related services. It was founded in 1874 and its innovative and environmentally-friendly access and transit-management systems make an important contribution to mobility in urban societies. Schindler manufactures, installs, services, and modernizes elevators, escalators, and moving walks for almost every type of building. Schindler’s dividend policy is earnings-related and provides for a payout ratio of 35% to 65% of net profit attributable to shareholders of Schindler Holding Ltd.",
       "progress": "WIP",
-      "slug": "project-4"
+      "slug": "schindler"
     },
     {
       "title": "Digital Art",
