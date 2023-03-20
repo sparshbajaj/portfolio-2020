@@ -1,12 +1,12 @@
 [
     {
-      "title": "Project 1",
+      "title": "Fluence",
       "type": "Web Design",
       "date": "2023",
-      "client": "Client 1",
-      "heroImage": "https://images.unsplash.com/photo-1676501334781-30ac3973dbef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
-      "description": "<h1>Heading 1</h1><p>This is a <b>bold</b> paragraph.</p><p>This is an <u>underlined</u> paragraph.</p>",
-      "excerpt": "ACT Responsable is a french association created to identify and collect the best communications campaigns around the world in order to raise awareness on social and environmental issues (solidarity, environment, human rights and education). The aim was to redesign the french website by focusing on their actions which are exhibitions, schools interventions or even the NG’Ad club.",
+      "client": "Loooop Studios",
+      "heroImage": "https://github.com/sparshbajaj/projects/raw/main/Projects/fluence/fluence-header.png",
+      "description": "<h1>Web Development</h1><p>I received design requirements and assets, which you can see below. I then developed the website, which had to be interactive. Initially, I was asked to create a scroll trigger animation that would reveal the line art as it is drawn on canvas.</p><img src=\"https://github.com/sparshbajaj/projects/raw/main/Projects/fluence/website-fluence.png\" alt=\"fluence\">",
+      "excerpt": "Fluence is an independent financial advisory firm founded by six associates with over a decade of common experience in the private banking and asset management sectors. The firm aims to provide personalized, high-performing, and digitalized services to its clients while reducing costs and increasing agility. Fluence’s approach is based on the realization of each investor’s personal objectives.",
       "progress": "Completed",
       "slug": "project-1"
     },
